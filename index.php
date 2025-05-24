@@ -39,10 +39,16 @@ class History extends Category{
 }
 
 $attualita = new Attuality("Attualità");
-$basket = new Sport("Sport");
-$portinaia = new Gossip("Gossip");
-$storia = new History("Storia");
+$attualita->getMyCategory();
 
+$basket = new Sport("Sport");
+$basket->getMyCategory();
+
+$portinaia = new Gossip("Gossip");
+$portinaia->getMyCategory();
+
+$storia = new History("Storia");
+$storia->getMyCategory();
 
 
 ?>
