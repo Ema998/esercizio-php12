@@ -1,4 +1,7 @@
 <?php 
+
+require_once 'Category.php';
+
 class Attuality extends Category{
     public function __construct($name){
         parent::__construct($name);
